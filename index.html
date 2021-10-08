@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    <!-- El SDK de Firebase JS principal siempre es obligatorio y se debe figurar primero -->
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js"></script>
+    <!-- TODO: Agrega SDK para los productos de Firebase que quieras usar
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Configuración de Firebase de tu aplicación web
+        var firebaseConfig = {
+            apiKey: "AIzaSyA1gU_CUA6a4c6CQhe6MN9Nr04gZAYolYk",
+            authDomain: "proyecto-36-ffa0f.firebaseapp.com",
+            databaseURL: "https://proyecto-36-ffa0f-default-rtdb.firebaseio.com",
+            projectId: "proyecto-36-ffa0f",
+            storageBucket: "proyecto-36-ffa0f.appspot.com",
+            messagingSenderId: "321783540133",
+            appId: "1:321783540133:web:4a95434bc8a7954a07604c"
+        };
+        // Inicializar Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="Food.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+    <script src="sketch.js"></script>
+</body>
+
+
+</html>
